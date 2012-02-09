@@ -7,7 +7,7 @@
 
 <div id="comment-notice"></div>
 
-<h2>Say something!</h2>
+<h2>Enter your comment</h2>
 <%= form_for Comment.new, :remote => true do |f| %>
 	<%= f.label :name, "Your name" %><br />
 	<%= f.text_field :name %><br />
